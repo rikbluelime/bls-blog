@@ -1,4 +1,5 @@
 
 heroku ps:scale web=1
 
-web: waitress-serve --call flaskr:create_app
+
+web: gunnicorn flaskr:create_app

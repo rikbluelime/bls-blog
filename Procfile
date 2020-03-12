@@ -1,1 +1,1 @@
-web: flask init-db;flask translate compile; gunnicorn flaskr:create_app
+web: flask init-db; gunnicorn flaskr:create_app

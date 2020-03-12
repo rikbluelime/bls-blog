@@ -4,8 +4,6 @@ click==7.1.1
 colorama==0.4.3
 coverage==5.0.3
 Flask==1.1.1
-# Editable install with no version control (flaskr==1.0.0)
--e c:\users\bluelime\desktop\flask-jam
 gunicorn==20.0.4
 itsdangerous==1.1.0
 Jinja2==2.11.1
